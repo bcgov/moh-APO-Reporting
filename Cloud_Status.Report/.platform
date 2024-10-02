@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Report",
+    "displayName": "Cloud_Status_PBI-Aug28"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "8dcecd94-9045-465f-ae57-34a182b9eb94"
+  }
+}

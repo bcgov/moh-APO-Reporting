@@ -1,0 +1,3733 @@
+{
+  "compatibilityLevel": 1567,
+  "model": {
+    "annotations": [
+      {
+        "name": "PBIDesktopVersion",
+        "value": "2.135.7627.0 (24.08)"
+      },
+      {
+        "name": "__PBI_TimeIntelligenceEnabled",
+        "value": "1"
+      },
+      {
+        "name": "PBI_QueryOrder",
+        "value": "[\"Cloud_Orgs\",\"SoftwareCapabilities\",\"Measure Table\",\"Application\",\"Stratgey Progress Report\",\"Project Status\",\"Architecture Activities\",\"CDA Current Month\",\"CDA Next Month\",\"Report Filter\",\"External Jira Issues\",\"New Capabilities\",\"Internal Jira Issues\",\"Last Refresh Date\"]"
+      },
+      {
+        "name": "PBI_ProTooling",
+        "value": "[\"DevMode\"]"
+      }
+    ],
+    "culture": "en-US",
+    "cultures": [
+      {
+        "name": "en-US",
+        "linguisticMetadata": {
+          "content": {
+            "Entities": {
+              "application.about": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Application",
+                    "ConceptualProperty": "about"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Application Details": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "application.account": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Application",
+                    "ConceptualProperty": "account"
+                  }
+                },
+                "State": "Generated"
+              },
+              "application.amscontract": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Application",
+                    "ConceptualProperty": "AMSContract"
+                  }
+                },
+                "State": "Generated"
+              },
+              "application.applicationdesc": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Application",
+                    "ConceptualProperty": "applicationdesc"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Service": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "application.applicationname": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Application",
+                    "ConceptualProperty": "applicationname"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Application Name": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "application.authdesc": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Application",
+                    "ConceptualProperty": "authdesc"
+                  }
+                },
+                "State": "Generated"
+              },
+              "application.cgisupteamprimary": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Application",
+                    "ConceptualProperty": "CGISupTeamPrimary"
+                  }
+                },
+                "State": "Generated"
+              },
+              "application.division": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Application",
+                    "ConceptualProperty": "division"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Division": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "application.hostprovider": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Application",
+                    "ConceptualProperty": "hostprovider"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Host Provider": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "application.hosttype": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Application",
+                    "ConceptualProperty": "hosttype"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Hosting Type": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "application.organization": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Application",
+                    "ConceptualProperty": "organization"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Organization": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "application.sbc": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Application",
+                    "ConceptualProperty": "SBC"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Business Owner": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "application.serverdesc": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Application",
+                    "ConceptualProperty": "serverdesc"
+                  }
+                },
+                "State": "Generated"
+              },
+              "application.sftypedesc": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Application",
+                    "ConceptualProperty": "sftypedesc"
+                  }
+                },
+                "State": "Generated"
+              },
+              "application.supportorganization": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Application",
+                    "ConceptualProperty": "SupportOrganization"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Support Organization": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "cloud_orgs.contactperson": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Cloud_Orgs",
+                    "ConceptualProperty": "contactperson"
+                  }
+                },
+                "State": "Generated"
+              },
+              "measure_table.count_external_jira_issues": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Measure Table",
+                    "ConceptualProperty": "Count External Jira Issues"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "External Tickets Closed": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "measure_table.count_internal_jira_issues": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Measure Table",
+                    "ConceptualProperty": "Count Internal Jira Issues"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Internal Ticket Closed": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "measure_table.countcloudservices": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Measure Table",
+                    "ConceptualProperty": "CountCloudServices"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Services Enabled": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "measure_table.countdistinctcloudapplications": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Measure Table",
+                    "ConceptualProperty": "CountDistinctCloudApplications"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Cloud Applications": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "measure_table.countnewcapabilities": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Measure Table",
+                    "ConceptualProperty": "CountNewCapabilities"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Cloud Capabilities": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "project_status.status": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Project Status",
+                    "ConceptualProperty": "Status"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Health": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "query1.about": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Cloud_Orgs",
+                    "ConceptualProperty": "about"
+                  }
+                },
+                "State": "Generated"
+              },
+              "query1.applicationdesc": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Cloud_Orgs",
+                    "ConceptualProperty": "applicationdesc"
+                  }
+                },
+                "State": "Generated"
+              },
+              "query1.applicationtype": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Cloud_Orgs",
+                    "ConceptualProperty": "applicationtype"
+                  }
+                },
+                "State": "Generated"
+              },
+              "query1.hostprovider": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Cloud_Orgs",
+                    "ConceptualProperty": "hostprovider"
+                  }
+                },
+                "State": "Generated"
+              },
+              "query1.organization": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Cloud_Orgs",
+                    "ConceptualProperty": "organization"
+                  }
+                },
+                "State": "Generated"
+              },
+              "query1.team": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Cloud_Orgs",
+                    "ConceptualProperty": "team"
+                  }
+                },
+                "State": "Generated"
+              },
+              "report_filter.date": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Report Filter",
+                    "ConceptualProperty": "Date"
+                  }
+                },
+                "State": "Generated"
+              },
+              "softwarecapabilities.code": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "SoftwareCapabilities",
+                    "ConceptualProperty": "Code"
+                  }
+                },
+                "State": "Generated"
+              },
+              "softwarecapabilities.primarycapability": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "SoftwareCapabilities",
+                    "ConceptualProperty": "primarycapability"
+                  }
+                },
+                "State": "Generated"
+              },
+              "softwarecapabilities.secondarycapability": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "SoftwareCapabilities",
+                    "ConceptualProperty": "secondarycapability"
+                  }
+                },
+                "State": "Generated"
+              },
+              "softwarecapabilities.softwaredescription": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "SoftwareCapabilities",
+                    "ConceptualProperty": "softwaredescription"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Software Description": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              }
+            },
+            "Language": "en-US",
+            "Version": "2.0.0"
+          },
+          "contentType": "json"
+        }
+      }
+    ],
+    "dataAccessOptions": {
+      "legacyRedirects": true,
+      "returnErrorValuesAsNull": true
+    },
+    "defaultPowerBIDataSourceVersion": "powerBI_V3",
+    "relationships": [
+      {
+        "name": "0fb9e697-c66e-4794-9a99-6c256c639f8e",
+        "fromColumn": "applicationname",
+        "fromTable": "Application",
+        "toColumn": "applicationname",
+        "toTable": "Cloud_Orgs"
+      },
+      {
+        "name": "e322bd66-9849-443b-9459-dbaef5924f47",
+        "fromColumn": "Date",
+        "fromTable": "CDA Next Month",
+        "toColumn": "Date",
+        "toTable": "Report Filter"
+      },
+      {
+        "name": "86192b61-e9cd-48e1-8cbd-7954ca5cd78a",
+        "fromColumn": "Date",
+        "fromTable": "CDA Current Month",
+        "toColumn": "Date",
+        "toTable": "Report Filter"
+      },
+      {
+        "name": "c57c58ad-edaa-4eb4-a2fe-0a7d0647aa90",
+        "fromColumn": "Date",
+        "fromTable": "Architecture Activities",
+        "toColumn": "Date",
+        "toTable": "Report Filter"
+      },
+      {
+        "name": "d3b95d4d-e45e-49a3-97c6-03e97c2fd72f",
+        "fromColumn": "Date",
+        "fromTable": "Project Status",
+        "toColumn": "Date",
+        "toTable": "Report Filter"
+      },
+      {
+        "name": "5597a24c-cba8-4f54-9c85-b70a8730866a",
+        "fromColumn": "Date",
+        "fromTable": "Stratgey Progress Report",
+        "toColumn": "Date",
+        "toTable": "Report Filter"
+      },
+      {
+        "name": "702d601c-270e-4a16-a135-63c74c0fc832",
+        "fromColumn": "Date",
+        "fromTable": "Report Filter",
+        "joinOnDateBehavior": "datePartOnly",
+        "toColumn": "Date",
+        "toTable": "LocalDateTable_785ed39e-6c3c-47e8-821e-11dec825cdee"
+      },
+      {
+        "name": "d5b01a39-d8ab-4689-a11c-d8d34ff99697",
+        "fromColumn": "Status Category Changed",
+        "fromTable": "Internal Jira Issues",
+        "joinOnDateBehavior": "datePartOnly",
+        "toColumn": "Date",
+        "toTable": "LocalDateTable_fb6e922b-09b6-4ec9-98cc-44083a7191de"
+      },
+      {
+        "name": "5761c59f-ecbc-46b7-b4f2-b570b5385e1a",
+        "fromColumn": "Date",
+        "fromTable": "Internal Jira Issues",
+        "joinOnDateBehavior": "datePartOnly",
+        "toColumn": "Date",
+        "toTable": "LocalDateTable_181d3a30-0919-44c1-addf-e80d622ad2ff"
+      },
+      {
+        "name": "0cdcf567-e0c9-4e48-a895-382cb9a7fe6b",
+        "fromColumn": "Last Refresh Date",
+        "fromTable": "Last Refresh Date",
+        "joinOnDateBehavior": "datePartOnly",
+        "toColumn": "Date",
+        "toTable": "LocalDateTable_d19fb769-9a2c-4017-bcf6-afd476800fc6"
+      },
+      {
+        "name": "78e70b44-351f-495b-8fb3-16e483d1c054",
+        "fromColumn": "Date",
+        "fromTable": "External Jira Issues",
+        "toColumn": "Date",
+        "toTable": "Report Filter"
+      }
+    ],
+    "sourceQueryCulture": "en-US",
+    "tables": [
+      {
+        "name": "Cloud_Orgs",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          },
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navigation"
+          }
+        ],
+        "columns": [
+          {
+            "name": "applicationname",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "babf0617-b800-4f86-80c1-28c7966c3f3c",
+            "sourceColumn": "applicationname",
+            "sourceProviderType": "nvarchar(50)",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "applicationdesc",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "eaa40ce8-68e3-4485-a9ed-246fa720a1b3",
+            "sourceColumn": "applicationdesc",
+            "sourceProviderType": "nvarchar(250)",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "about",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "cb04bab5-e58d-4ad7-b711-38105d1561ad",
+            "sourceColumn": "about",
+            "sourceProviderType": "nvarchar(-1)",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "applicationtype",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "aadc76fa-2c6f-4300-ab86-4e9a1583d9eb",
+            "sourceColumn": "applicationtype",
+            "sourceProviderType": "nvarchar(250)",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "organization",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "9069bfa9-7dc3-419f-a8b5-e41007fd8562",
+            "sourceColumn": "organization",
+            "sourceProviderType": "nvarchar(100)",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "team",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "f58807f6-d349-4cfe-a16a-06f0de92544c",
+            "sourceColumn": "team",
+            "sourceProviderType": "nvarchar(100)",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "hostprovider",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "7081ba22-bcf2-4a9a-a03a-8f077319c074",
+            "sourceColumn": "hostprovider",
+            "sourceProviderType": "nvarchar(100)",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "hosttype",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "2f7c8087-3ae3-4000-86bc-c376a5f29ed1",
+            "sourceColumn": "hosttype",
+            "sourceProviderType": "nvarchar(100)",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "contactperson",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "bb3993f5-f5e4-47f0-b590-5238913c67e7",
+            "sourceColumn": "contactperson",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Code",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "6826ef39-0c3e-4508-994c-ebcd6b0d74c3",
+            "sourceColumn": "Code",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "29c43fbe-1ec6-4867-b09d-9a8ab1a0b7b2",
+        "partitions": [
+          {
+            "name": "Cloud_Orgs-04044d20-1438-4146-82cc-2caedc4129e1",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Source = Value.NativeQuery(PostgreSQL.Database(\"localhost:5436\", \"cmdb\", [HierarchicalNavigation=true]), \"#(lf)        SELECT app.\"\"Acronym\"\" ApplicationName,#(lf)#(lf)               app.\"\"Description\"\" ApplicationDesc,#(lf)#(lf)               app.\"\"About\"\" About,#(lf)#(lf)               app_type.\"\"Description\"\" ApplicationType, #(lf)#(lf)               org.\"\"Code\"\" Organization, #(lf)#(lf)               team.\"\"Code\"\" Team, #(lf)#(lf)               hostProvider.\"\"Description\"\" HostProvider, #(lf)#(lf)               hostType.\"\"Code\"\" HostType,#(lf)#(lf)               ind.\"\"FirstName\"\"||' '||ind.\"\"LastName\"\" ContactPerson, #(lf)  #(lf)               teamOrg.\"\"Code\"\"   #(lf)      #(lf)               FROM public.\"\"LookUp\"\" hostProvider#(tab) #(lf)#(lf)               INNER JOIN public.\"\"LookUp\"\" hostType ON hostProvider.\"\"ParentId\"\" = hostType.\"\"Id\"\" AND hostType.\"\"Type\"\" = 'HostingTypes' AND hostType.\"\"Status\"\" = 'A' AND hostType.\"\"Code\"\" = 'Cloud'#(lf)#(lf)               INNER JOIN public.\"\"Application\"\" app ON hostProvider.\"\"Id\"\" = ANY (app.\"\"HostingProvider\"\") AND app.\"\"Status\"\" = 'A'#(lf)#(lf)               LEFT OUTER JOIN public.\"\"Individual\"\" ind ON app.\"\"MOHSBC\"\" = ind.\"\"Id\"\"#(lf)#(lf)               INNER JOIN public.\"\"Organization\"\" org ON app.\"\"Organization\"\" = org.\"\"Id\"\"#(lf)#(lf)               INNER JOIN public.\"\"LookUp\"\" app_type ON app.\"\"Type\"\" = app_type.\"\"Id\"\" AND app_type.\"\"Status\"\" = 'A'#(lf)#(lf)               LEFT OUTER JOIN public.\"\"Team\"\" team ON app.\"\"CGISupTeamPrimary\"\" = team.\"\"Id\"\"#(lf)#(lf)               LEFT OUTER JOIN public.\"\"Organization\"\" teamOrg ON team.\"\"Organization\"\" = teamOrg.\"\"Id\"\"#(lf)               WHERE hostProvider.\"\"Status\"\" = 'A' AND hostProvider.\"\"Type\"\" = 'HostingProvider'#(lf)#(lf)               ORDER BY app.\"\"Description\"\"\", null, [EnableFolding=true]),",
+                "    #\"Sorted Rows\" = Table.Sort(Source,{{\"applicationname\", Order.Ascending}})",
+                "in",
+                "    #\"Sorted Rows\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "DateTableTemplate_daa446a6-74a6-42f6-95e7-6c776d9a5278",
+        "annotations": [
+          {
+            "name": "__PBI_TemplateDateTable",
+            "value": "true"
+          },
+          {
+            "name": "DefaultItem",
+            "value": "DateHierarchy"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Date",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              }
+            ],
+            "dataCategory": "PaddedDateTableDates",
+            "dataType": "dateTime",
+            "isDataTypeInferred": true,
+            "isHidden": true,
+            "isNameInferred": true,
+            "lineageTag": "dd82010c-1b4e-425e-bb7a-414314e1109b",
+            "sourceColumn": "[Date]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "Year",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Year"
+              }
+            ],
+            "dataCategory": "Years",
+            "dataType": "int64",
+            "expression": "YEAR([Date])",
+            "isDataTypeInferred": true,
+            "isHidden": true,
+            "lineageTag": "1b665c1e-f42c-4200-9a23-b01ddd460a2d",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "MonthNo",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "MonthNumber"
+              }
+            ],
+            "dataCategory": "MonthOfYear",
+            "dataType": "int64",
+            "expression": "MONTH([Date])",
+            "isDataTypeInferred": true,
+            "isHidden": true,
+            "lineageTag": "2a8cf24e-d9e5-4a1a-a798-b5a5e457e671",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Month",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Month"
+              }
+            ],
+            "dataCategory": "Months",
+            "dataType": "string",
+            "expression": "FORMAT([Date], \"MMMM\")",
+            "isDataTypeInferred": true,
+            "isHidden": true,
+            "lineageTag": "ea0701ee-8ef0-4074-ae27-55378a8666ea",
+            "sortByColumn": "MonthNo",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "QuarterNo",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "QuarterNumber"
+              }
+            ],
+            "dataCategory": "QuarterOfYear",
+            "dataType": "int64",
+            "expression": "INT(([MonthNo] + 2) / 3)",
+            "isDataTypeInferred": true,
+            "isHidden": true,
+            "lineageTag": "081f053a-6d5d-44bd-90e1-82c00cc764cb",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Quarter",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Quarter"
+              }
+            ],
+            "dataCategory": "Quarters",
+            "dataType": "string",
+            "expression": "\"Qtr \" & [QuarterNo]",
+            "isDataTypeInferred": true,
+            "isHidden": true,
+            "lineageTag": "abe2c122-793a-4f82-ab2f-3b4631aa406c",
+            "sortByColumn": "QuarterNo",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Day",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Day"
+              }
+            ],
+            "dataCategory": "DayOfMonth",
+            "dataType": "int64",
+            "expression": "DAY([Date])",
+            "isDataTypeInferred": true,
+            "isHidden": true,
+            "lineageTag": "7e9e98fb-6f10-4f54-8838-f5718c6921b0",
+            "summarizeBy": "none",
+            "type": "calculated"
+          }
+        ],
+        "hierarchies": [
+          {
+            "name": "Date Hierarchy",
+            "annotations": [
+              {
+                "name": "TemplateId",
+                "value": "DateHierarchy"
+              }
+            ],
+            "levels": [
+              {
+                "name": "Year",
+                "column": "Year",
+                "lineageTag": "0fcbe990-f49e-4d17-ad94-b773d094fcc5",
+                "ordinal": 0
+              },
+              {
+                "name": "Quarter",
+                "column": "Quarter",
+                "lineageTag": "426e5108-1799-41e1-bd2b-4d40eac36e1d",
+                "ordinal": 1
+              },
+              {
+                "name": "Month",
+                "column": "Month",
+                "lineageTag": "22c6a0b1-0c82-4ce1-9ae0-41b7d1b040d4",
+                "ordinal": 2
+              },
+              {
+                "name": "Day",
+                "column": "Day",
+                "lineageTag": "3ebd0125-16ee-4b9f-9e13-9d3a3af70e9f",
+                "ordinal": 3
+              }
+            ],
+            "lineageTag": "f73c071b-08a0-4589-875e-54eb8625d557"
+          }
+        ],
+        "isHidden": true,
+        "isPrivate": true,
+        "lineageTag": "b6ffed68-7e35-4b58-8ee8-85fe0380ea81",
+        "partitions": [
+          {
+            "name": "DateTableTemplate_daa446a6-74a6-42f6-95e7-6c776d9a5278-e687f2a5-259a-48e8-86dd-c88f119dd877",
+            "mode": "import",
+            "source": {
+              "expression": "Calendar(Date(2015,1,1), Date(2015,1,1))",
+              "type": "calculated"
+            }
+          }
+        ]
+      },
+      {
+        "name": "SoftwareCapabilities",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          },
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navigation"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Code",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "bddecd64-0756-4517-b53e-b61783c1ad58",
+            "sourceColumn": "Code",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "primarycapability",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "847fcf45-ca63-4911-983c-cd6b4c4918f4",
+            "sourceColumn": "primarycapability",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "softwaredescription",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "5b9effeb-d036-4e44-b437-908fb804531e",
+            "sourceColumn": "softwaredescription",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "radardesc",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "e10ec305-5a3c-45cb-8401-5bc12b5ad9f3",
+            "sourceColumn": "radardesc",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "secondarycapability",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "afe02cd6-98fe-4d20-b8b4-3427ef3944ef",
+            "sourceColumn": "secondarycapability",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "ActiveFlag",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "boolean",
+            "formatString": "\"TRUE\";\"TRUE\";\"FALSE\"",
+            "lineageTag": "469a63e0-fc9d-48a6-883a-1a11275eeda6",
+            "sourceColumn": "ActiveFlag",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "c25a0cb9-aa8e-4900-a441-f605205cefe0",
+        "partitions": [
+          {
+            "name": "SoftwareCapabilities-52e4ac5c-8a24-4a4e-a112-5487b9d763a7",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Source = Value.NativeQuery(PostgreSQL.Database(\"localhost:5436\", \"cmdb\", [HierarchicalNavigation=true]), \"SELECT ST.\"\"Code\"\",#(lf)#(lf)               PC.\"\"Code\"\" AS PrimaryCapability,#(lf)#(lf)               RadarType.\"\"Description\"\" RadarDesc,#(lf)#(lf)               SC.\"\"Code\"\" AS SecondaryCapability,#(lf) #(lf)               ST.\"\"ActiveFlag\"\",#(lf)#(lf)               REPLACE(REPLACE(ST.\"\"SoftwareDescription\"\", '<p>', ''), '</p>', '') AS SoftwareDescription #(lf)#(lf)        FROM public.\"\"SoftwareType\"\" AS ST#(lf)LEFT OUTER JOIN public.\"\"LookUp\"\" AS SoftwareVendor ON ST.\"\"Vendor\"\" = SoftwareVendor.\"\"Id\"\" AND ST.\"\"Status\"\" = 'A'#(lf)#(lf)        left Outer JOIN public.\"\"LookUp\"\" AS RadarType ON ST.\"\"RadarType\"\" = RadarType.\"\"Id\"\" AND ST.\"\"Status\"\" = 'A'#(lf)        INNER JOIN public.\"\"SecondaryCapability\"\" AS SC ON ST.\"\"SecondaryCapability\"\" = SC.\"\"Id\"\" AND SC.\"\"Status\"\" = 'A'#(lf)#(lf)        INNER JOIN public.\"\"PrimaryCapability\"\" AS PC ON SC.\"\"PrimaryCapability\"\" = PC.\"\"Id\"\" AND PC.\"\"Status\"\" = 'A' #(lf) #(lf)        where #(tab)ST.\"\"Status\"\" = 'A'\", null, [EnableFolding=true]),",
+                "    #\"Renamed Columns\" = Table.RenameColumns(Source,{{\"secondarycapability\", \"secondarycapability\"}})",
+                "in",
+                "    #\"Renamed Columns\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Measure Table",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          },
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navigation"
+          }
+        ],
+        "columns": [
+          {
+            "name": "RADAR",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "b8f86996-5632-4096-a490-3f81a3c0cfec",
+            "sourceColumn": "RADAR",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "2dcfdc3a-0977-4a42-8ce1-7062199f0d7a",
+        "measures": [
+          {
+            "name": "Count External Jira Issues",
+            "expression": [
+              "",
+              "VAR SelectedDate = MAX('Report Filter'[Date])",
+              "VAR IssueCount = ",
+              "    CALCULATE(",
+              "        COUNTROWS('External Jira Issues'),",
+              "        FILTER(",
+              "            ALL('External Jira Issues'),",
+              "            'External Jira Issues'[Date] = SelectedDate ",
+              "        )",
+              "    )",
+              "RETURN",
+              "IF(ISBLANK(IssueCount), 0, IssueCount)"
+            ],
+            "formatString": "0",
+            "lineageTag": "0bc51e4c-8843-4286-a59c-aa3897bc0f93"
+          },
+          {
+            "name": "Count Internal Jira Issues",
+            "expression": [
+              "",
+              "VAR SelectedDate = MAX('Report Filter'[Date])",
+              "VAR IssueCount =",
+              "    CALCULATE(",
+              "        COUNTROWS('Internal Jira Issues'),",
+              "        FILTER(",
+              "            ALL('Internal Jira Issues'),",
+              "            'Internal Jira Issues'[Date] = SelectedDate ",
+              "        )",
+              "    )",
+              "RETURN",
+              "IF(ISBLANK(IssueCount), 0, IssueCount)"
+            ],
+            "formatString": "0",
+            "lineageTag": "c32bd5ff-6b16-451b-b409-c6f7e2b16281"
+          },
+          {
+            "name": "CountDistinctCloudApplications",
+            "expression": [
+              "",
+              "COUNTROWS(",
+              "    SUMMARIZE(",
+              "        FILTER(",
+              "            'Application', ",
+              "            ('Application'[Application Status] = \"Active\") && ",
+              "            'Application'[applicationtype] = \"Application\" && ",
+              "            'Application'[organization] = \"Ministry of Health\" &&",
+              "            'Application'[hosttype] = \"Cloud\"",
+              "        ),",
+              "        'Application'[applicationname]",
+              "    )",
+              ")"
+            ],
+            "formatString": "0",
+            "lineageTag": "4830913d-c84b-4e54-83fa-02879c1ce994"
+          },
+          {
+            "name": "CountNewCapabilities",
+            "expression": "COUNTROWS('New Capabilities')",
+            "formatString": "0",
+            "lineageTag": "b1363e87-79a1-4711-836a-90f4943f064c"
+          },
+          {
+            "name": "CountCloudServices",
+            "expression": [
+              "COUNTROWS(",
+              "    SUMMARIZE(",
+              "        FILTER(",
+              "            'Application', ",
+              "            'Application'[Application Status] = \"Active\" && ",
+              "            'Application'[organization] = \"Ministry of Health\" && ",
+              "            'Application'[applicationtype] = \"Service\" && ",
+              "            'Application'[hosttype] = \"Cloud\"",
+              "        ),",
+              "        'Application'[applicationdesc]",
+              "    )",
+              ")"
+            ],
+            "formatString": "0",
+            "lineageTag": "1e1b62e1-1b8f-4e01-8d81-524116528a78"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "Measure Table-bf4ebd58-155f-4ed4-83f4-70aabd7ab58a",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Source = Table.FromRows(Json.Document(Binary.Decompress(Binary.FromText(\"ZY8xD4IwFIT/Sm3iSKlxEuKkzjq4GHAofYW+BChpC8K/F0Wj6Pjde5e7SxKatpyv5WJ/3J0vpwPRviqfkpoOv5wZGIjzQ6m2KW0EANZFRHjTx6QStsB6gpR+mzC3olLEWTmatPeNi8LQChCWDbXdKAhAdazGKmsdk6VpgRWmY5lkUqT0E2ccejRjRI69gpjcELyOyIrzZUy0wkL7N2XGgrLB6+O/Ujh1mkmPbTPhM55er3c=\", BinaryEncoding.Base64), Compression.Deflate)), let _t = ((type nullable text) meta [Serialized.Text = true]) in type table [Column1 = _t]),",
+                "    #\"Changed Type\" = Table.TransformColumnTypes(Source,{{\"Column1\", type text}}),",
+                "    #\"Renamed Columns\" = Table.RenameColumns(#\"Changed Type\",{{\"Column1\", \"RADAR\"}})",
+                "in",
+                "    #\"Renamed Columns\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Application",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          },
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navigation"
+          }
+        ],
+        "columns": [
+          {
+            "name": "applicationname",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "822f0e76-0159-47a7-8294-2aecced36c09",
+            "sourceColumn": "applicationname",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "serverdesc",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "9d349a97-d760-4696-84a2-cbb27763f73a",
+            "sourceColumn": "serverdesc",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "AMSContract",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "boolean",
+            "formatString": "\"TRUE\";\"TRUE\";\"FALSE\"",
+            "lineageTag": "16ca7c55-8753-46e7-bd2f-b63384f96163",
+            "sourceColumn": "AMSContract",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "applicationdesc",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "e2c2bfd7-34be-4805-a059-a37faa4f3f9a",
+            "sourceColumn": "applicationdesc",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "about",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "4d67c0ec-b83e-4afd-9be6-b5cd973d3d86",
+            "sourceColumn": "about",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "hostprovider",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "c6032330-f2ac-49d9-b150-fe793fb9f835",
+            "sourceColumn": "hostprovider",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "hosttype",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "ca4e1439-7776-42dd-b166-0fa89409c77b",
+            "sourceColumn": "hosttype",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "applicationtype",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "5f5c07ec-8603-4216-8c53-6cb4231bfb95",
+            "sourceColumn": "applicationtype",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "organization",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "7fa1a7da-03c4-4765-bb3a-f40cfd57a5f9",
+            "sourceColumn": "organization",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "division",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "0f801a0c-c8c1-40d3-80aa-a1966b3b8759",
+            "sourceColumn": "division",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "account",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "3338185d-88ab-4ebb-90c3-51bb678b6ecb",
+            "sourceColumn": "account",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "environment",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "f5813c13-f927-41c6-bc1b-2ebda24546b1",
+            "sourceColumn": "environment",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Application Status",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "e1c2172f-d91c-409e-8fab-5f90d84e397c",
+            "sourceColumn": "Application Status",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "App Instance Status",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "99edb4c1-8b13-4a7f-8918-337b09b57b90",
+            "sourceColumn": "App Instance Status",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "SBC",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "c5ebc1b9-7895-47ec-a340-6d31a2b20086",
+            "sourceColumn": "SBC",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "CGISupTeamPrimary",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "678160bd-b3b5-4f43-828f-557b921c950c",
+            "sourceColumn": "CGISupTeamPrimary",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "MOHSME",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "db9fb8ad-2847-4a27-8cb0-46d04ae43d73",
+            "sourceColumn": "MOHSME",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "SoftwareVendor",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "ae42657a-cefe-4c3c-ae2c-3a67b0876b2a",
+            "sourceColumn": "SoftwareVendor",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Tier2RAID10SAN",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "2186c38a-ccd7-4978-9070-cab908e1dc13",
+            "sourceColumn": "Tier2RAID10SAN",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "envdesc",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "2dd16316-01f4-4337-b03b-f7a9bec45f50",
+            "sourceColumn": "envdesc",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "softindesc",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "304d027a-eb58-4b25-938f-c9045a599365",
+            "sourceColumn": "softindesc",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Version",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "f2fd8fb9-39d5-4b70-826c-933cd3c6ce3c",
+            "sourceColumn": "Version",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "sftypedesc",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "2dee6c24-5a5c-4412-b99c-708b12ace458",
+            "sourceColumn": "sftypedesc",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "authdesc",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "cfd5cd3f-2530-4628-aa1f-60c8b8498488",
+            "sourceColumn": "authdesc",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "CGIBSL",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "c459e435-c942-48ca-9564-aefd3cdf4267",
+            "sourceColumn": "CGIBSL",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "SupportOrganization",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "238edd85-a8e2-4acc-a7f7-4a8138d01e7f",
+            "sourceColumn": "SupportOrganization",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Cloud Strategy",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "21f4a3a3-0fee-4de1-9de7-30af939e7b14",
+            "sourceColumn": "Cloud Strategy",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "CloudConsideration",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "11a7d6f8-7e88-4e04-a216-be5e76e6d6cf",
+            "sourceColumn": "CloudConsideration",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Cloud Workload",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "37d0f589-b53b-4713-b6d0-d69fae221594",
+            "sourceColumn": "Cloud Workload",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "5916dde1-e3f4-4d25-b688-89934f8d92d1",
+        "measures": [
+          {
+            "name": "CloudVsOnPremisePercentage",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "expression": [
+              "",
+              "DIVIDE(",
+              "    COUNTROWS(",
+              "        FILTER(",
+              "            'Application',",
+              "            'Application'[HostType] = \"Cloud\" || ISBLANK('Application'[HostType])",
+              "        )",
+              "    ),",
+              "    COUNTROWS('Application')",
+              ") * 100 "
+            ],
+            "lineageTag": "4c36a78e-2d16-4451-8310-ccb525372cd0"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "Application-97c8b4a1-7698-4e3b-a41b-72567eea1127",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Source = Value.NativeQuery(PostgreSQL.Database(\"localhost:5436\", \"cmdb\"), \"SELECT app.\"\"Acronym\"\" ApplicationName,#(lf)#(lf)            srv.\"\"Description\"\" as serverDesc,#(lf)#(lf)            app.\"\"AMSContract\"\",#(lf)#(lf)            app.\"\"Description\"\" ApplicationDesc,#(lf)#(lf)            app.\"\"About\"\" About,#(lf)#(lf)            hostProvider.\"\"Description\"\" HostProvider, #(lf)#(lf)            hostType.\"\"Description\"\" HostType,#(lf)#(lf)            (select \"\"Description\"\" from public.\"\"LookUp\"\" AppType where AppType.\"\"Id\"\" = app.\"\"Type\"\") as applicationType, #(lf)#(lf)            (select \"\"Description\"\" from public.\"\"Organization\"\" org where org.\"\"Id\"\" = app.\"\"Organization\"\") as organization,#(lf)#(lf)            (select \"\"Description\"\" from public.\"\"Team\"\" org where org.\"\"Id\"\" = app.\"\"Division\"\") as division,#(lf)#(lf)            (select \"\"Description\"\" from public.\"\"Account\"\" acct where acct.\"\"Id\"\" = cld.\"\"CloudAccount\"\") as account,#(lf)#(lf)            (select \"\"Description\"\" from public.\"\"LookUp\"\" where \"\"Id\"\" = env.\"\"EnvironmentType\"\") as environment,#(lf)#(lf)            (select \"\"Description\"\" from public.\"\"LookUp\"\" where public.\"\"LookUp\"\".\"\"Id\"\"=app.\"\"AppStatus\"\") as \"\"Application Status\"\",#(lf)#(lf)            (select \"\"Description\"\" from public.\"\"LookUp\"\" where public.\"\"LookUp\"\".\"\"Id\"\"=env.\"\"InstStatus\"\" ) as \"\"App Instance Status\"\",#(lf)#(lf)            (select \"\"Description\"\" from public.\"\"Party\"\" where public.\"\"Party\"\".\"\"Id\"\"=app.\"\"MOHSBC\"\" ) as \"\"SBC\"\",#(lf)#(lf)            (select \"\"Description\"\" from public.\"\"Party\"\" where public.\"\"Party\"\".\"\"Id\"\"=app.\"\"CGISupTeamPrimary\"\" ) as \"\"CGISupTeamPrimary\"\",#(lf)#(lf)            (select \"\"Description\"\" from public.\"\"Party\"\" where public.\"\"Party\"\".\"\"Id\"\"= (Select \"\"Organization\"\" from public.\"\"Team\"\" where \"\"Id\"\" = app.\"\"CGISupTeamPrimary\"\") ) as \"\"SupportOrganization\"\",#(lf)#(tab)        (select \"\"Description\"\" from public.\"\"Party\"\" where public.\"\"Party\"\".\"\"Id\"\"=app.\"\"MOHSME\"\" ) as \"\"MOHSME\"\",#(lf)#(lf)            (select \"\"Description\"\" from public.\"\"Party\"\" where public.\"\"Party\"\".\"\"Id\"\"=app.\"\"CGIBSL\"\" ) as \"\"CGIBSL\"\",#(lf)#(lf)            (select \"\"Description\"\" from public.\"\"LookUp\"\" vendor where vendor.\"\"Id\"\" = sftype.\"\"Vendor\"\" and vendor.\"\"Status\"\" = 'A' ) as \"\"SoftwareVendor\"\",#(lf)#(lf)            (select \"\"StorageAmount\"\" from  public.\"\"LookUp\"\" l#(tab) where sftstorage.\"\"StorageType\"\"=l.\"\"Id\"\"  and l.\"\"Status\"\"='A' AND l.\"\"Code\"\"='Tier2RAID10SAN') as \"\"Tier2RAID10SAN\"\",#(lf)#(lf)            env.\"\"Description\"\" as envDesc,#(lf)#(lf)            softin.\"\"Description\"\" as softinDesc,#(lf)#(lf)            softver.\"\"Version\"\",#(lf)#(tab)  sftype.\"\"Description\"\" as sfTypeDesc,#(lf)#(lf)            auth.\"\"Description\"\" as authDesc,#(lf)#(lf)  (select \"\"Description\"\" from public.\"\"LookUp\"\" where \"\"Id\"\" = app.\"\"CloudStrategy\"\") as \"\"Cloud Strategy\"\",#(lf)#(lf)     \"\"CloudConsideration\"\",#(lf)     (select \"\"Description\"\" from public.\"\"LookUp\"\" where \"\"Id\"\" = app.\"\"CloudWorkload\"\") as \"\"Cloud Workload\"\"#(lf)#(lf)     FROM  public.\"\"Application\"\" app #(lf)#(lf)            LEFT OUTER JOIN public.\"\"LookUp\"\" hostProvider ON hostProvider.\"\"Id\"\" = ANY (app.\"\"HostingProvider\"\") AND hostProvider.\"\"Status\"\" = 'A' AND hostProvider.\"\"Type\"\" = 'HostingProvider'#(lf)#(lf)            LEFT OUTER JOIN public.\"\"LookUp\"\" hostType ON hostProvider.\"\"ParentId\"\" = hostType.\"\"Id\"\" AND hostType.\"\"Type\"\" = 'HostingTypes' AND hostType.\"\"Status\"\" = 'A'#(lf)#(lf)            LEFT OUTER JOIN public.\"\"LookUp\"\" auth ON auth.\"\"Id\"\" = ANY (app.\"\"ApplicationIDP\"\") AND app.\"\"Status\"\" = 'A'#(lf)#(lf)            LEFT OUTER JOIN public.\"\"AppInstance\"\" env ON app.\"\"Id\"\" = env.\"\"Application\"\" AND env.\"\"Status\"\" = 'A'#(lf)#(lf)            LEFT OUTER join public.\"\"Map_APPINS_TO_INFRA\"\" apin on apin.\"\"IdObj1\"\" = env.\"\"Id\"\" and apin.\"\"Status\"\" = 'A'#(lf)#(lf)            LEFT OUTER join public.\"\"Software_Infra\"\" softin on apin.\"\"IdObj2\"\" = softin.\"\"Id\"\" and apin.\"\"Status\"\" = 'A'#(lf)#(lf)            LEFT OUTER JOIN public.\"\"Software_2\"\" softver on softver.\"\"Id\"\"  = softin.\"\"Software\"\" and softver.\"\"Status\"\" = 'A'#(lf)#(lf)            LEFT OUTER JOIN public.\"\"SoftwareType\"\" sftype on sftype.\"\"Id\"\" = softver.\"\"SoftwareType\"\" and sftype.\"\"Status\"\" = 'A'#(lf)#(lf)            LEFT OUTER JOIN public.\"\"Server\"\" srv on srv.\"\"Id\"\" = softin.\"\"Server\"\" and srv.\"\"Status\"\" = 'A'#(lf)#(lf)            LEFT OUTER JOIN public.\"\"Cloud\"\" cld on srv.\"\"Id\"\" = cld.\"\"Id\"\" and cld.\"\"Status\"\" = 'A'#(lf)#(lf)            LEFT OUTER JOIN public.\"\"Storage\"\" sftstorage on sftstorage.\"\"ServerStorage\"\" = softin.\"\"Id\"\" and sftstorage.\"\"Status\"\" = 'A'#(lf)#(lf)            WHERE app.\"\"Status\"\" = 'A'\", null, [EnableFolding=true])",
+                "in",
+                "    Source"
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Stratgey Progress Report",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Stratgey Component",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "b90237bd-209d-4b7e-ae78-7b1b4eeae6ca",
+            "sourceColumn": "Stratgey Component",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Stratgey Milestone",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "d232f70d-c374-445e-8031-0b282870d7a8",
+            "sourceColumn": "Stratgey Milestone",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Completion Percentage",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "expression": [
+              "",
+              "VAR SelectedDate = SELECTEDVALUE('Report Filter'[Date])",
+              "RETURN",
+              "SWITCH('Stratgey Progress Report'[Stratgey Milestone],",
+              "    \"Not Started\", 0,",
+              "    \"Planning\", 15,",
+              "    \"In Progress\", 35,",
+              "    \"Reaching Halfway\", 50,",
+              "    \"Undergoing Review\", 70,",
+              "    \"Pending Approval\", 85,",
+              "    \"Completed\", 100,",
+              "    0  -- Default value if no match is found",
+              ")"
+            ],
+            "formatString": "0",
+            "isDataTypeInferred": true,
+            "lineageTag": "e7bd9624-a589-4243-8833-1f20a40e5d5a",
+            "summarizeBy": "sum",
+            "type": "calculated"
+          },
+          {
+            "name": "Comments",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "a3950dda-46ed-4c57-87f6-510503347a0d",
+            "sourceColumn": "Comments",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Date",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "UnderlyingDateTimeDataType",
+                "value": "Date"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isDateTimeCustom\":true}"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "DataType"
+              }
+            ],
+            "dataType": "dateTime",
+            "formatString": "yyyy-mm",
+            "lineageTag": "81020dff-ff8f-42c5-ab09-cbd6d6c6d221",
+            "sourceColumn": "Date",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "dbfb297c-6a1d-4baa-b9df-10bf67f9f6db",
+        "partitions": [
+          {
+            "name": "Stratgey Progress Report-17ada096-c6e2-4b34-adf6-cba84fa463e8",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Source = Excel.Workbook(File.Contents(\"C:\\Users\\raili.sherwood\\Documents\\CMDB_files\\Cloud Stratgey Progress Report.xlsx\"), null, true),",
+                "    #\"Stratgey Progress Report_Sheet\" = Source{[Item=\"Stratgey Progress Report\",Kind=\"Sheet\"]}[Data],",
+                "    #\"Changed Type\" = Table.TransformColumnTypes(#\"Stratgey Progress Report_Sheet\",{{\"Column1\", type text}, {\"Column2\", type text}}),",
+                "    #\"Promoted Headers\" = Table.PromoteHeaders(#\"Changed Type\", [PromoteAllScalars=true]),",
+                "    #\"Changed Type1\" = Table.TransformColumnTypes(#\"Promoted Headers\",{{\"Stratgey Component\", type text}, {\"Stratgey Milestone\", type text}})",
+                "in",
+                "    #\"Changed Type1\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Project Status",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Initiative Name",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "a04f57ac-dbc7-4ff0-9e84-0a98fd538b50",
+            "sourceColumn": "Initiative Name",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Project Phase",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "9d7795d4-389a-4047-be33-d041067cbb38",
+            "sourceColumn": "Project Phase",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Initiative Type",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "0314e26e-6f14-4e50-8ba9-ed00e33294e8",
+            "sourceColumn": "Initiative Type",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Project Completion Percentage",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "02c7b499-87d8-4703-875d-78f9503a7744",
+            "sourceColumn": "Project Completion Percentage",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Notes",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "d00fec07-46bc-4cfb-aa4f-d8603ac48fb9",
+            "sourceColumn": "Notes",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "SortColumn",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "expression": [
+              "",
+              "VAR CompleteText = ",
+              "    IF('Project Status'[Project Completion Percentage] < 10, \"00\" & 'Project Status'[Project Completion Percentage],",
+              "    IF('Project Status'[Project Completion Percentage] < 100, \"0\" & 'Project Status'[Project Completion Percentage], 'Project Status'[Project Completion Percentage]))",
+              "RETURN",
+              "    'Project Status'[Initiative Type] & \" \" & CompleteText"
+            ],
+            "isDataTypeInferred": true,
+            "lineageTag": "6f96f8b7-37b3-4c06-868c-571b56e11352",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Current Status",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "7a461a5d-9855-4962-a780-d18afa17e4a2",
+            "sourceColumn": "Current Status",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Status",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "4a517b1b-ec1d-49f8-98fd-cbf74aaa8a6b",
+            "sourceColumn": "Status",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Date",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "UnderlyingDateTimeDataType",
+                "value": "Date"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isDateTimeCustom\":true}"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "DataType"
+              }
+            ],
+            "dataType": "dateTime",
+            "formatString": "yyyy-mm",
+            "lineageTag": "a2cf638b-684f-45b2-ae7f-7ff1171ea759",
+            "sourceColumn": "Date",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "2cfe5b7f-bc28-41e9-a756-90b6f92ca783",
+        "partitions": [
+          {
+            "name": "Project Status-c1002852-15f6-4b67-b557-e6fa68c98132",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Source = Excel.Workbook(File.Contents(\"C:\\Users\\raili.sherwood\\Documents\\CMDB_files\\Cloud Stratgey Progress Report.xlsx\"), null, true),",
+                "    #\"Project Status_Sheet\" = Source{[Item=\"Project Status\",Kind=\"Sheet\"]}[Data],",
+                "    #\"Promoted Headers\" = Table.PromoteHeaders(#\"Project Status_Sheet\", [PromoteAllScalars=true]),",
+                "    #\"Changed Type\" = Table.TransformColumnTypes(#\"Promoted Headers\",{{\"Initiative Name\", type text}, {\"Project Phase\", type text}, {\"Initiative Type\", type text}, {\"Project Completion Percentage\", Int64.Type}, {\"Notes\", type text}})",
+                "in",
+                "    #\"Changed Type\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Architecture Activities",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Architecture Category",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "5b1aba1b-e71d-4968-bb1c-f6297ecfcb03",
+            "sourceColumn": "Architecture Category",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Architecture Activity",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "2d664721-8875-40b3-a0a3-f607c0263e16",
+            "sourceColumn": "Architecture Activity",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Completion Percentage",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "eabd1789-45d2-4cff-b79f-f8267b5b229b",
+            "sourceColumn": "Completion Percentage",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Date",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "UnderlyingDateTimeDataType",
+                "value": "Date"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isDateTimeCustom\":true}"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "DataType"
+              }
+            ],
+            "dataType": "dateTime",
+            "formatString": "yyyy-mm",
+            "lineageTag": "6da0dc74-e4bf-4932-92b1-a09bb7e00717",
+            "sourceColumn": "Date",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "8d76354a-ee4d-451a-ab7c-dc209e3f8c13",
+        "partitions": [
+          {
+            "name": "Architecture Activities-6514e636-dc0a-45db-8f96-496c21705cd2",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Source = Excel.Workbook(File.Contents(\"C:\\Users\\raili.sherwood\\Documents\\CMDB_files\\Cloud Stratgey Progress Report.xlsx\"), null, true),",
+                "    #\"Architecture Activities_Sheet\" = Source{[Item=\"Architecture Activities\",Kind=\"Sheet\"]}[Data],",
+                "    #\"Promoted Headers\" = Table.PromoteHeaders(#\"Architecture Activities_Sheet\", [PromoteAllScalars=true]),",
+                "    #\"Changed Type\" = Table.TransformColumnTypes(#\"Promoted Headers\",{{\"Architecture Category\", type text}, {\"Architecture Activity\", type text}, {\"Completion Percentage\", Int64.Type}})",
+                "in",
+                "    #\"Changed Type\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "CDA Current Month",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Description",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "f2964d2b-bb39-4299-97b8-8aa4c0e424f6",
+            "sourceColumn": "Description",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Date",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "UnderlyingDateTimeDataType",
+                "value": "Date"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isDateTimeCustom\":true}"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "DataType"
+              }
+            ],
+            "dataType": "dateTime",
+            "formatString": "yyyy-mm",
+            "lineageTag": "5b59b056-ac07-4cc0-bfc8-2995df494dd5",
+            "sourceColumn": "Date",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "ae76d5dd-5b20-412b-a3e1-d7620b09571b",
+        "partitions": [
+          {
+            "name": "CDA Current Month-2a0b171b-ec4a-47a9-92af-e9f7a3ca2574",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Source = Excel.Workbook(File.Contents(\"C:\\Users\\raili.sherwood\\Documents\\CMDB_files\\Cloud Stratgey Progress Report.xlsx\"), null, true),",
+                "    #\"CDA Current Month_Sheet\" = Source{[Item=\"CDA Current Month\",Kind=\"Sheet\"]}[Data],",
+                "    #\"Changed Type\" = Table.TransformColumnTypes(#\"CDA Current Month_Sheet\",{{\"Column1\", type text}}),",
+                "    #\"Promoted Headers\" = Table.PromoteHeaders(#\"Changed Type\", [PromoteAllScalars=true]),",
+                "    #\"Changed Type1\" = Table.TransformColumnTypes(#\"Promoted Headers\",{{\"Description\", type text}})",
+                "in",
+                "    #\"Changed Type1\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "CDA Next Month",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Description",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "5ccbfee7-eb23-4429-9153-0aa20ec39ec1",
+            "sourceColumn": "Description",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Date",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "UnderlyingDateTimeDataType",
+                "value": "Date"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isDateTimeCustom\":true}"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "DataType"
+              }
+            ],
+            "dataType": "dateTime",
+            "formatString": "yyyy-mm",
+            "lineageTag": "05408d66-282c-4c64-9295-08592bb1ccfe",
+            "sourceColumn": "Date",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "0b453c3e-e333-4a78-b869-4b185264bcdb",
+        "partitions": [
+          {
+            "name": "CDA Next Month-4ad7fbd8-9f53-42d3-977b-f427ad9746e2",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Source = Excel.Workbook(File.Contents(\"C:\\Users\\raili.sherwood\\Documents\\CMDB_files\\Cloud Stratgey Progress Report.xlsx\"), null, true),",
+                "    #\"CDA Next Month_Sheet\" = Source{[Item=\"CDA Next Month\",Kind=\"Sheet\"]}[Data],",
+                "    #\"Changed Type\" = Table.TransformColumnTypes(#\"CDA Next Month_Sheet\",{{\"Column1\", type text}}),",
+                "    #\"Promoted Headers\" = Table.PromoteHeaders(#\"Changed Type\", [PromoteAllScalars=true]),",
+                "    #\"Changed Type1\" = Table.TransformColumnTypes(#\"Promoted Headers\",{{\"Description\", type text}})",
+                "in",
+                "    #\"Changed Type1\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Cloud Program Metrics",
+        "columns": [
+          {
+            "name": "Measure Name",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "isDataTypeInferred": true,
+            "isNameInferred": true,
+            "lineageTag": "4f04793e-5683-4530-9d5e-4455b6fd2805",
+            "sourceColumn": "[Measure Name]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "Value",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "isDataTypeInferred": true,
+            "isNameInferred": true,
+            "lineageTag": "6f12f574-1906-439c-8afe-e1cc3115a5c6",
+            "sourceColumn": "[Value]",
+            "summarizeBy": "sum",
+            "type": "calculatedTableColumn"
+          }
+        ],
+        "lineageTag": "6262531e-d62d-418e-82a2-73dac77722b0",
+        "partitions": [
+          {
+            "name": "Cloud Program Metrics-d79feb50-bc89-44c3-87a0-f688bf85d6ce",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "UNION(",
+                "    ROW(\"Measure Name\", \"# Cloud Applications\", \"Value\", [CountDistinctCloudApplications]),",
+                "    ROW(\"Measure Name\", \"# Cloud Capabilities\", \"Value\", [CountNewCapabilities])",
+                ")"
+              ],
+              "type": "calculated"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Report Filter",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Date",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "UnderlyingDateTimeDataType",
+                "value": "Date"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isDateTimeCustom\":true}"
+              }
+            ],
+            "dataType": "dateTime",
+            "formatString": "yyyy-mm",
+            "lineageTag": "393b6b1a-6795-42d4-a9c3-ca2e8226757c",
+            "sourceColumn": "Date",
+            "summarizeBy": "none",
+            "variations": [
+              {
+                "name": "Variation",
+                "defaultHierarchy": {
+                  "hierarchy": "Date Hierarchy",
+                  "table": "LocalDateTable_785ed39e-6c3c-47e8-821e-11dec825cdee"
+                },
+                "isDefault": true,
+                "relationship": "702d601c-270e-4a16-a135-63c74c0fc832"
+              }
+            ]
+          },
+          {
+            "name": "Report Name",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "SortByColumn"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "b94c29f2-81e1-410e-98ba-81e2701e413d",
+            "sortByColumn": "Sort Order",
+            "sourceColumn": "Report Name",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Sort Order",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "SortByColumn"
+              },
+              {
+                "property": "DataType"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "0e52398e-3a2d-442d-9295-f6f06a8540ea",
+            "sourceColumn": "Sort Order",
+            "summarizeBy": "sum"
+          }
+        ],
+        "lineageTag": "14d50e6f-d011-4bcc-8150-8b7860207b28",
+        "partitions": [
+          {
+            "name": "Report Filter-6ab4d0d1-dbdb-4260-b594-7f4f93aff11f",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Source = Excel.Workbook(File.Contents(\"C:\\Users\\raili.sherwood\\Documents\\CMDB_files\\Cloud Stratgey Progress Report.xlsx\"), null, true),",
+                "    #\"Report Filter_Sheet\" = Source{[Item=\"Report Filter\",Kind=\"Sheet\"]}[Data],",
+                "    #\"Promoted Headers\" = Table.PromoteHeaders(#\"Report Filter_Sheet\", [PromoteAllScalars=true]),",
+                "    #\"Changed Type\" = Table.TransformColumnTypes(#\"Promoted Headers\",{{\"Date\", type date}, {\"Report Name\", type text}})",
+                "in",
+                "    #\"Changed Type\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "LocalDateTable_785ed39e-6c3c-47e8-821e-11dec825cdee",
+        "annotations": [
+          {
+            "name": "__PBI_LocalDateTable",
+            "value": "true"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Date",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              }
+            ],
+            "dataCategory": "PaddedDateTableDates",
+            "dataType": "dateTime",
+            "isDataTypeInferred": true,
+            "isHidden": true,
+            "isNameInferred": true,
+            "lineageTag": "b06ebd4f-84fa-48b8-a7e1-ca788deecec0",
+            "sourceColumn": "[Date]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "Year",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Year"
+              }
+            ],
+            "dataCategory": "Years",
+            "dataType": "int64",
+            "expression": "YEAR([Date])",
+            "isDataTypeInferred": true,
+            "isHidden": true,
+            "lineageTag": "2dfe332b-9e55-4194-8075-69d4cc515be3",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "MonthNo",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "MonthNumber"
+              }
+            ],
+            "dataCategory": "MonthOfYear",
+            "dataType": "int64",
+            "expression": "MONTH([Date])",
+            "isDataTypeInferred": true,
+            "isHidden": true,
+            "lineageTag": "11d04f64-e354-4899-a00a-54ee638165fa",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Month",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Month"
+              }
+            ],
+            "dataCategory": "Months",
+            "dataType": "string",
+            "expression": "FORMAT([Date], \"MMMM\")",
+            "isDataTypeInferred": true,
+            "isHidden": true,
+            "lineageTag": "cc272acb-d3e0-473e-b234-f6548263a1ad",
+            "sortByColumn": "MonthNo",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "QuarterNo",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "QuarterNumber"
+              }
+            ],
+            "dataCategory": "QuarterOfYear",
+            "dataType": "int64",
+            "expression": "INT(([MonthNo] + 2) / 3)",
+            "isDataTypeInferred": true,
+            "isHidden": true,
+            "lineageTag": "7113a328-e8ce-4e56-a58c-8a6cb3c1caad",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Quarter",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Quarter"
+              }
+            ],
+            "dataCategory": "Quarters",
+            "dataType": "string",
+            "expression": "\"Qtr \" & [QuarterNo]",
+            "isDataTypeInferred": true,
+            "isHidden": true,
+            "lineageTag": "2a5e3dbb-e64d-43e6-b231-44e6416cdc8c",
+            "sortByColumn": "QuarterNo",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Day",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Day"
+              }
+            ],
+            "dataCategory": "DayOfMonth",
+            "dataType": "int64",
+            "expression": "DAY([Date])",
+            "isDataTypeInferred": true,
+            "isHidden": true,
+            "lineageTag": "71597860-1592-4334-8d63-97f15f499a63",
+            "summarizeBy": "none",
+            "type": "calculated"
+          }
+        ],
+        "hierarchies": [
+          {
+            "name": "Date Hierarchy",
+            "annotations": [
+              {
+                "name": "TemplateId",
+                "value": "DateHierarchy"
+              }
+            ],
+            "levels": [
+              {
+                "name": "Year",
+                "column": "Year",
+                "lineageTag": "88423e31-4d2f-4ea5-b122-aabaac539ddc",
+                "ordinal": 0
+              },
+              {
+                "name": "Quarter",
+                "column": "Quarter",
+                "lineageTag": "1ad28f39-f612-41cd-b899-ea9ba2f7ff50",
+                "ordinal": 1
+              },
+              {
+                "name": "Month",
+                "column": "Month",
+                "lineageTag": "3b5698cf-e52d-419c-8270-bb7aad78b17e",
+                "ordinal": 2
+              },
+              {
+                "name": "Day",
+                "column": "Day",
+                "lineageTag": "7a2efca0-21e1-4731-b87a-01c3039f0f32",
+                "ordinal": 3
+              }
+            ],
+            "lineageTag": "0e840599-4968-4774-939f-6d1d516df204"
+          }
+        ],
+        "isHidden": true,
+        "lineageTag": "2867f0d9-b165-4b73-ad50-8ec37a8d5626",
+        "partitions": [
+          {
+            "name": "LocalDateTable_785ed39e-6c3c-47e8-821e-11dec825cdee-54a88796-fd71-4105-8dbd-0ba1cfdc1bff",
+            "mode": "import",
+            "source": {
+              "expression": "Calendar(Date(Year(MIN('Report Filter'[Date])), 1, 1), Date(Year(MAX('Report Filter'[Date])), 12, 31))",
+              "type": "calculated"
+            }
+          }
+        ],
+        "showAsVariationsOnly": true
+      },
+      {
+        "name": "External Jira Issues",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Issue Type",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "1a0090c4-a657-46ba-83aa-28220128a0b3",
+            "sourceColumn": "Issue Type",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Key",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "7c032c8d-1166-4a2a-8c5b-c41186c48365",
+            "sourceColumn": "Key",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Summary",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "b8eef48d-5654-4181-9f9d-16edffe7d05f",
+            "sourceColumn": "Summary",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Assignee",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "f7a312f4-4921-45a6-bd03-80962705cb3c",
+            "sourceColumn": "Assignee",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Status",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "d3d011cd-5dbf-45ac-b4d4-54531e1d9f52",
+            "sourceColumn": "Status",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Associates",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "662c056d-e3d9-4a85-9131-ca2dfe517b2d",
+            "sourceColumn": "Associates",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Status Category Changed",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "c53c29d7-cede-47f1-9172-1ee47881f95d",
+            "sourceColumn": "Status Category Changed",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Date",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "dateTime",
+            "expression": "DATE(YEAR('External Jira Issues'[Status Category Changed]), MONTH('External Jira Issues'[Status Category Changed]), 1)",
+            "formatString": "General Date",
+            "isDataTypeInferred": true,
+            "lineageTag": "d161fdab-5832-4259-b4e6-9a40e1fb8ced",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Resolved",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "e3627b02-111b-4b5c-b0a8-23f9fb1c6546",
+            "sourceColumn": "Resolved",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Issue key",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "5fe99bf7-6350-4ed9-abee-aa4c0117a1f8",
+            "sourceColumn": "Issue key",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Issue id",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "b700b075-4509-4ff5-a31e-14ae291db134",
+            "sourceColumn": "Issue id",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Assignee Id",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "55462ee4-6cb6-42e0-9042-bcb6aca06782",
+            "sourceColumn": "Assignee Id",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Custom field (Associates)",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "7f486541-b4b5-4c76-bdc1-98c0572b9cf4",
+            "sourceColumn": "Custom field (Associates)",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Custom field (Associates)_1",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "c60a6114-b935-4895-b466-5e70c4f10c57",
+            "sourceColumn": "Custom field (Associates)_1",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Custom field (Associates)Id",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "d619c27f-8626-4543-b6ca-7618698b3828",
+            "sourceColumn": "Custom field (Associates)Id",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Custom field (Associates)Id_2",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "5cbea8c3-5d2e-4a3a-8764-f34dab82ee52",
+            "sourceColumn": "Custom field (Associates)Id_2",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Priority",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "0f0591e4-2535-450f-832b-7007bcfe9104",
+            "sourceColumn": "Priority",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "400c1d57-2a6e-47ef-9c89-e116fdcecc3c",
+        "partitions": [
+          {
+            "name": "External Jira Issues-5d285f66-a3b6-4282-a72f-afe60e720d0d",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Source = Excel.Workbook(File.Contents(\"C:\\Users\\raili.sherwood\\Documents\\CMDB_files\\External Jira Issues.xlsx\"), null, true),",
+                "    #\"External Jira Issues_Sheet\" = Source{[Item=\"External Jira Issues\",Kind=\"Sheet\"]}[Data],",
+                "    #\"Promoted Headers\" = Table.PromoteHeaders(#\"External Jira Issues_Sheet\", [PromoteAllScalars=true]),",
+                "    #\"Changed Type\" = Table.TransformColumnTypes(#\"Promoted Headers\",{{\"Issue Type\", type text}, {\"Key\", type text}, {\"Summary\", type text}, {\"Assignee\", type text}, {\"Status\", type text}, {\"Associates\", type text},  {\"Status Category Changed\", type any}})",
+                "in",
+                "    #\"Changed Type\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "New Capabilities",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Application",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "1fa65c36-7a8d-4d45-8b6e-2ee0bba11cd0",
+            "sourceColumn": "Application",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "New Capabilities Demonstrated",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "af04c16e-408f-482f-8e0b-1229cafa57aa",
+            "sourceColumn": "New Capabilities Demonstrated",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "55d444ae-ad5c-4287-b120-7cc462c4b6d7",
+        "partitions": [
+          {
+            "name": "New Capabilities-1232764a-f3f7-4a70-bb10-15a3d147d758",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Source = Excel.Workbook(File.Contents(\"C:\\Users\\raili.sherwood\\Documents\\CMDB_files\\Cloud Stratgey Progress Report.xlsx\"), null, true),",
+                "    #\"New Capabilities_Sheet\" = Source{[Item=\"New Capabilities\",Kind=\"Sheet\"]}[Data],",
+                "    #\"Changed Type\" = Table.TransformColumnTypes(#\"New Capabilities_Sheet\",{{\"Column1\", type text}, {\"Column2\", type text}}),",
+                "    #\"Promoted Headers\" = Table.PromoteHeaders(#\"Changed Type\", [PromoteAllScalars=true]),",
+                "    #\"Changed Type1\" = Table.TransformColumnTypes(#\"Promoted Headers\",{{\"Application\", type text}, {\"New Capabilities Demonstrated\", type text}})",
+                "in",
+                "    #\"Changed Type1\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Internal Jira Issues",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Issue Type",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "c7f9e64e-2cfb-4771-bacf-a4432daf5d02",
+            "sourceColumn": "Issue Type",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Key",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "b3b16e1d-ec8e-4e2c-8179-3f363ad73552",
+            "sourceColumn": "Key",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Summary",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "89591165-258e-4301-9640-35b3b0304586",
+            "sourceColumn": "Summary",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Assignee",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "79833eba-f012-4bf0-8899-dc64a3dd022b",
+            "sourceColumn": "Assignee",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Status",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "d65dd63e-19a5-4199-89ee-6d8bff981212",
+            "sourceColumn": "Status",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Associates",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "26f7c4f5-6248-4a8d-baaa-3b87165610de",
+            "sourceColumn": "Associates",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Status Category Changed",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "dateTime",
+            "formatString": "General Date",
+            "lineageTag": "1bb9caa0-ff6a-481b-92da-66d6e50f1950",
+            "sourceColumn": "Status Category Changed",
+            "summarizeBy": "none",
+            "variations": [
+              {
+                "name": "Variation",
+                "defaultHierarchy": {
+                  "hierarchy": "Date Hierarchy",
+                  "table": "LocalDateTable_fb6e922b-09b6-4ec9-98cc-44083a7191de"
+                },
+                "isDefault": true,
+                "relationship": "d5b01a39-d8ab-4689-a11c-d8d34ff99697"
+              }
+            ]
+          },
+          {
+            "name": "Date",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "dateTime",
+            "expression": "DATE(YEAR('Internal Jira Issues'[Status Category Changed]), MONTH('Internal Jira Issues'[Status Category Changed]), 1)",
+            "formatString": "General Date",
+            "isDataTypeInferred": true,
+            "lineageTag": "b284fc64-8f98-40f0-8d12-a47944fc1d2b",
+            "summarizeBy": "none",
+            "type": "calculated",
+            "variations": [
+              {
+                "name": "Variation",
+                "defaultHierarchy": {
+                  "hierarchy": "Date Hierarchy",
+                  "table": "LocalDateTable_181d3a30-0919-44c1-addf-e80d622ad2ff"
+                },
+                "isDefault": true,
+                "relationship": "5761c59f-ecbc-46b7-b4f2-b570b5385e1a"
+              }
+            ]
+          }
+        ],
+        "lineageTag": "89394248-cb8f-4a76-acd1-8ebcbef0c2c4",
+        "partitions": [
+          {
+            "name": "Internal Jira Issues-6838c7fc-4e73-4b78-a4e4-421632098a89",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Source = Excel.Workbook(File.Contents(\"C:\\Users\\raili.sherwood\\Documents\\CMDB_files\\Internal Jira Issues.xlsx\"), null, true),",
+                "    #\"Internal Jira Issues_Sheet\" = Source{[Item=\"Internal Jira Issues\",Kind=\"Sheet\"]}[Data],",
+                "    #\"Promoted Headers\" = Table.PromoteHeaders(#\"Internal Jira Issues_Sheet\", [PromoteAllScalars=true]),",
+                "    #\"Changed Type\" = Table.TransformColumnTypes(#\"Promoted Headers\",{{\"Issue Type\", type text}, {\"Key\", type text}, {\"Summary\", type text}, {\"Assignee\", type text}, {\"Status\", type text}, {\"Associates\", type text}, {\"Status Category Changed\", type datetime}})",
+                "in",
+                "    #\"Changed Type\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "LocalDateTable_fb6e922b-09b6-4ec9-98cc-44083a7191de",
+        "annotations": [
+          {
+            "name": "__PBI_LocalDateTable",
+            "value": "true"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Date",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              }
+            ],
+            "dataCategory": "PaddedDateTableDates",
+            "dataType": "dateTime",
+            "isDataTypeInferred": true,
+            "isHidden": true,
+            "isNameInferred": true,
+            "lineageTag": "829c47bc-f801-4229-8ae2-74b707eb2cda",
+            "sourceColumn": "[Date]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "Year",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Year"
+              }
+            ],
+            "dataCategory": "Years",
+            "dataType": "int64",
+            "expression": "YEAR([Date])",
+            "isDataTypeInferred": true,
+            "isHidden": true,
+            "lineageTag": "6ff387fa-5709-404c-ac37-047b46feb377",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "MonthNo",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "MonthNumber"
+              }
+            ],
+            "dataCategory": "MonthOfYear",
+            "dataType": "int64",
+            "expression": "MONTH([Date])",
+            "isDataTypeInferred": true,
+            "isHidden": true,
+            "lineageTag": "2e1281ed-d82c-45b2-8606-d44ce6353dc6",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Month",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Month"
+              }
+            ],
+            "dataCategory": "Months",
+            "dataType": "string",
+            "expression": "FORMAT([Date], \"MMMM\")",
+            "isDataTypeInferred": true,
+            "isHidden": true,
+            "lineageTag": "843571d2-e463-40cf-9235-b8f4937638a6",
+            "sortByColumn": "MonthNo",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "QuarterNo",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "QuarterNumber"
+              }
+            ],
+            "dataCategory": "QuarterOfYear",
+            "dataType": "int64",
+            "expression": "INT(([MonthNo] + 2) / 3)",
+            "isDataTypeInferred": true,
+            "isHidden": true,
+            "lineageTag": "4c64e29a-cdb1-435e-a027-d227108f3b42",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Quarter",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Quarter"
+              }
+            ],
+            "dataCategory": "Quarters",
+            "dataType": "string",
+            "expression": "\"Qtr \" & [QuarterNo]",
+            "isDataTypeInferred": true,
+            "isHidden": true,
+            "lineageTag": "38f19bd1-2590-48c2-85b5-05e19186b57f",
+            "sortByColumn": "QuarterNo",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Day",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Day"
+              }
+            ],
+            "dataCategory": "DayOfMonth",
+            "dataType": "int64",
+            "expression": "DAY([Date])",
+            "isDataTypeInferred": true,
+            "isHidden": true,
+            "lineageTag": "9e21dab2-c146-406e-80ff-583eff481e43",
+            "summarizeBy": "none",
+            "type": "calculated"
+          }
+        ],
+        "hierarchies": [
+          {
+            "name": "Date Hierarchy",
+            "annotations": [
+              {
+                "name": "TemplateId",
+                "value": "DateHierarchy"
+              }
+            ],
+            "levels": [
+              {
+                "name": "Year",
+                "column": "Year",
+                "lineageTag": "2c70a2a6-5dea-41c6-b16a-61e90b893dfe",
+                "ordinal": 0
+              },
+              {
+                "name": "Quarter",
+                "column": "Quarter",
+                "lineageTag": "0f14be47-10ac-4ab5-a372-8262872335ae",
+                "ordinal": 1
+              },
+              {
+                "name": "Month",
+                "column": "Month",
+                "lineageTag": "ebb4513a-172f-464a-9017-bca1ad2dcd2b",
+                "ordinal": 2
+              },
+              {
+                "name": "Day",
+                "column": "Day",
+                "lineageTag": "030c602c-f58d-40c0-9cf4-90c73bd6d16d",
+                "ordinal": 3
+              }
+            ],
+            "lineageTag": "f7ee9467-3b65-45d1-950e-a859a691d042"
+          }
+        ],
+        "isHidden": true,
+        "lineageTag": "a546da54-d15e-467e-856a-f8f9348e61ed",
+        "partitions": [
+          {
+            "name": "LocalDateTable_fb6e922b-09b6-4ec9-98cc-44083a7191de-30957d9a-cf1c-4c85-89e6-0a80b7dc3bd6",
+            "mode": "import",
+            "source": {
+              "expression": "Calendar(Date(Year(MIN('Internal Jira Issues'[Status Category Changed])), 1, 1), Date(Year(MAX('Internal Jira Issues'[Status Category Changed])), 12, 31))",
+              "type": "calculated"
+            }
+          }
+        ],
+        "showAsVariationsOnly": true
+      },
+      {
+        "name": "LocalDateTable_181d3a30-0919-44c1-addf-e80d622ad2ff",
+        "annotations": [
+          {
+            "name": "__PBI_LocalDateTable",
+            "value": "true"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Date",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              }
+            ],
+            "dataCategory": "PaddedDateTableDates",
+            "dataType": "dateTime",
+            "isDataTypeInferred": true,
+            "isHidden": true,
+            "isNameInferred": true,
+            "lineageTag": "be227c35-9988-4eae-811d-e88c8e55024d",
+            "sourceColumn": "[Date]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "Year",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Year"
+              }
+            ],
+            "dataCategory": "Years",
+            "dataType": "int64",
+            "expression": "YEAR([Date])",
+            "isDataTypeInferred": true,
+            "isHidden": true,
+            "lineageTag": "9adf08e1-4e6e-4700-8328-c2e52066673e",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "MonthNo",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "MonthNumber"
+              }
+            ],
+            "dataCategory": "MonthOfYear",
+            "dataType": "int64",
+            "expression": "MONTH([Date])",
+            "isDataTypeInferred": true,
+            "isHidden": true,
+            "lineageTag": "e9f993d7-9a74-40a2-93fe-478142376988",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Month",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Month"
+              }
+            ],
+            "dataCategory": "Months",
+            "dataType": "string",
+            "expression": "FORMAT([Date], \"MMMM\")",
+            "isDataTypeInferred": true,
+            "isHidden": true,
+            "lineageTag": "2ae2e689-0328-4984-a9c3-1d07df7afea3",
+            "sortByColumn": "MonthNo",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "QuarterNo",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "QuarterNumber"
+              }
+            ],
+            "dataCategory": "QuarterOfYear",
+            "dataType": "int64",
+            "expression": "INT(([MonthNo] + 2) / 3)",
+            "isDataTypeInferred": true,
+            "isHidden": true,
+            "lineageTag": "598b25de-c152-4303-9e87-08b4d7e0456d",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Quarter",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Quarter"
+              }
+            ],
+            "dataCategory": "Quarters",
+            "dataType": "string",
+            "expression": "\"Qtr \" & [QuarterNo]",
+            "isDataTypeInferred": true,
+            "isHidden": true,
+            "lineageTag": "aafb32ec-e0e0-475b-90a5-73e8b83ba31d",
+            "sortByColumn": "QuarterNo",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Day",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Day"
+              }
+            ],
+            "dataCategory": "DayOfMonth",
+            "dataType": "int64",
+            "expression": "DAY([Date])",
+            "isDataTypeInferred": true,
+            "isHidden": true,
+            "lineageTag": "f52951d4-19ba-477a-a432-796e86f01c62",
+            "summarizeBy": "none",
+            "type": "calculated"
+          }
+        ],
+        "hierarchies": [
+          {
+            "name": "Date Hierarchy",
+            "annotations": [
+              {
+                "name": "TemplateId",
+                "value": "DateHierarchy"
+              }
+            ],
+            "levels": [
+              {
+                "name": "Year",
+                "column": "Year",
+                "lineageTag": "3393b898-43f3-4d10-8029-33d700503a28",
+                "ordinal": 0
+              },
+              {
+                "name": "Quarter",
+                "column": "Quarter",
+                "lineageTag": "35d4dd03-0a94-4dff-9799-822d90d38970",
+                "ordinal": 1
+              },
+              {
+                "name": "Month",
+                "column": "Month",
+                "lineageTag": "4dbba140-a95d-483a-92ff-c3dfee6339b3",
+                "ordinal": 2
+              },
+              {
+                "name": "Day",
+                "column": "Day",
+                "lineageTag": "d41d77e8-3cdd-484a-8db5-81eaf1a18dc7",
+                "ordinal": 3
+              }
+            ],
+            "lineageTag": "f3da33c8-8dad-4d2b-92e5-ee9c8f4a3e27"
+          }
+        ],
+        "isHidden": true,
+        "lineageTag": "036a39fe-0665-43d9-89aa-3e92128e697b",
+        "partitions": [
+          {
+            "name": "LocalDateTable_181d3a30-0919-44c1-addf-e80d622ad2ff-ecf6f231-d30a-4cf7-8f57-3299405053cd",
+            "mode": "import",
+            "source": {
+              "expression": "Calendar(Date(Year(MIN('Internal Jira Issues'[Date])), 1, 1), Date(Year(MAX('Internal Jira Issues'[Date])), 12, 31))",
+              "type": "calculated"
+            }
+          }
+        ],
+        "showAsVariationsOnly": true
+      },
+      {
+        "name": "Last Refresh Date",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Last Refresh Date",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "UnderlyingDateTimeDataType",
+                "value": "Date"
+              }
+            ],
+            "dataType": "dateTime",
+            "formatString": "Short Date",
+            "lineageTag": "c85709a6-ef13-4222-8ae9-35f8ee275e71",
+            "sourceColumn": "Last Refresh Date",
+            "summarizeBy": "none",
+            "variations": [
+              {
+                "name": "Variation",
+                "defaultHierarchy": {
+                  "hierarchy": "Date Hierarchy",
+                  "table": "LocalDateTable_d19fb769-9a2c-4017-bcf6-afd476800fc6"
+                },
+                "isDefault": true,
+                "relationship": "0cdcf567-e0c9-4e48-a895-382cb9a7fe6b"
+              }
+            ]
+          }
+        ],
+        "lineageTag": "ba644526-29c1-48e0-a325-965bd245a9db",
+        "partitions": [
+          {
+            "name": "Last Refresh Date",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Source = 0,",
+                "    SummerTime = Date.StartOfWeek( #date(Date.Year(DateTime.LocalNow()),3,14), Day.Sunday),",
+                "    WinterTime = Date.StartOfWeek( #date(Date.Year(DateTime.LocalNow()),11,7), Day.Sunday),",
+                "    CurrentDateTime = DateTimeZone.RemoveZone(DateTimeZone.UtcNow()),",
+                "    TimeShiftFromUTC = if CurrentDateTime < SummerTime & #time(1,0,0) or",
+                "CurrentDateTime < WinterTime & #time(1,0,0) then",
+                "-7 else -8,",
+                "    TimeStamp = DateTimeZone.SwitchZone( DateTimeZone.UtcNow(),TimeShiftFromUTC,0),",
+                "    #\"Converted to Table\" = #table(1, {{TimeStamp}}),",
+                "    #\"Renamed Columns\" = Table.RenameColumns(#\"Converted to Table\",{{\"Column1\", \"Last Refresh Date\"}}),",
+                "    #\"Changed Type\" = Table.TransformColumnTypes(#\"Renamed Columns\",{{\"Last Refresh Date\", type date}})",
+                "in",
+                "    #\"Changed Type\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "LocalDateTable_d19fb769-9a2c-4017-bcf6-afd476800fc6",
+        "annotations": [
+          {
+            "name": "__PBI_LocalDateTable",
+            "value": "true"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Date",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              }
+            ],
+            "dataCategory": "PaddedDateTableDates",
+            "dataType": "dateTime",
+            "isHidden": true,
+            "isNameInferred": true,
+            "lineageTag": "4533520d-b1f7-4f9e-a738-ec417f524ab7",
+            "sourceColumn": "[Date]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "Year",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Year"
+              }
+            ],
+            "dataCategory": "Years",
+            "dataType": "int64",
+            "expression": "YEAR([Date])",
+            "isHidden": true,
+            "lineageTag": "824ce30e-4b1e-4840-9171-602567c67629",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "MonthNo",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "MonthNumber"
+              }
+            ],
+            "dataCategory": "MonthOfYear",
+            "dataType": "int64",
+            "expression": "MONTH([Date])",
+            "isHidden": true,
+            "lineageTag": "86c526b3-542b-425b-8fc6-9e79568a3f43",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Month",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Month"
+              }
+            ],
+            "dataCategory": "Months",
+            "dataType": "string",
+            "expression": "FORMAT([Date], \"MMMM\")",
+            "isHidden": true,
+            "lineageTag": "ae24b206-1b98-4aef-bcad-9be3653bdeae",
+            "sortByColumn": "MonthNo",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "QuarterNo",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "QuarterNumber"
+              }
+            ],
+            "dataCategory": "QuarterOfYear",
+            "dataType": "int64",
+            "expression": "INT(([MonthNo] + 2) / 3)",
+            "isHidden": true,
+            "lineageTag": "e1f8033d-211e-423f-86f5-1bf6d6ba005c",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Quarter",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Quarter"
+              }
+            ],
+            "dataCategory": "Quarters",
+            "dataType": "string",
+            "expression": "\"Qtr \" & [QuarterNo]",
+            "isHidden": true,
+            "lineageTag": "bb38eae3-6752-47e8-a385-a645220dd6e5",
+            "sortByColumn": "QuarterNo",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Day",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Day"
+              }
+            ],
+            "dataCategory": "DayOfMonth",
+            "dataType": "int64",
+            "expression": "DAY([Date])",
+            "isHidden": true,
+            "lineageTag": "7fc57b93-8ca5-4143-a14b-df25d9434ab2",
+            "summarizeBy": "none",
+            "type": "calculated"
+          }
+        ],
+        "hierarchies": [
+          {
+            "name": "Date Hierarchy",
+            "annotations": [
+              {
+                "name": "TemplateId",
+                "value": "DateHierarchy"
+              }
+            ],
+            "levels": [
+              {
+                "name": "Year",
+                "column": "Year",
+                "lineageTag": "c7040046-cbc8-407d-8b8e-49e03242b07e",
+                "ordinal": 0
+              },
+              {
+                "name": "Quarter",
+                "column": "Quarter",
+                "lineageTag": "01b76247-971b-418d-9b69-5b0107fcbf5a",
+                "ordinal": 1
+              },
+              {
+                "name": "Month",
+                "column": "Month",
+                "lineageTag": "cd467931-9c3c-4aac-a2d7-c092c7f94158",
+                "ordinal": 2
+              },
+              {
+                "name": "Day",
+                "column": "Day",
+                "lineageTag": "272c6695-0821-4d1e-954d-431ba8951cc1",
+                "ordinal": 3
+              }
+            ],
+            "lineageTag": "c892a287-bea1-4000-8ca2-4f4f0fa8656e"
+          }
+        ],
+        "isHidden": true,
+        "lineageTag": "4c71f0f4-faae-468d-9cbf-6352268dc75a",
+        "partitions": [
+          {
+            "name": "LocalDateTable_d19fb769-9a2c-4017-bcf6-afd476800fc6",
+            "mode": "import",
+            "source": {
+              "expression": "Calendar(Date(Year(MIN('Last Refresh Date'[Last Refresh Date])), 1, 1), Date(Year(MAX('Last Refresh Date'[Last Refresh Date])), 12, 31))",
+              "type": "calculated"
+            }
+          }
+        ],
+        "showAsVariationsOnly": true
+      }
+    ]
+  }
+}

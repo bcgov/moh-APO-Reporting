@@ -1,0 +1,204 @@
+{
+  "version": "1.1.0",
+  "diagrams": [
+    {
+      "ordinal": 0,
+      "scrollPosition": {
+        "x": 0,
+        "y": 41.082629862354793
+      },
+      "nodes": [
+        {
+          "location": {
+            "x": 5,
+            "y": 666
+          },
+          "nodeIndex": "Cloud_Orgs",
+          "size": {
+            "height": 317,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 0.5,
+            "y": 0
+          },
+          "nodeIndex": "SoftwareCapabilities",
+          "size": {
+            "height": 221,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 370.29999999999995,
+            "y": 883
+          },
+          "nodeIndex": "Application",
+          "size": {
+            "height": 337,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 274.5,
+            "y": 202
+          },
+          "nodeIndex": "Measure Table",
+          "size": {
+            "height": 240,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 925.37263426199911,
+            "y": 668.65331998300007
+          },
+          "nodeIndex": "Stratgey Progress Report",
+          "size": {
+            "height": 173,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 1215.6179607098381,
+            "y": 590.84531216703374
+          },
+          "nodeIndex": "Project Status",
+          "size": {
+            "height": 245,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 1488.772634261999,
+            "y": 547.42532054128333
+          },
+          "nodeIndex": "Architecture Activities",
+          "size": {
+            "height": 197,
+            "width": 321
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 1608.4192999981933,
+            "y": 334.42532054128333
+          },
+          "nodeIndex": "CDA Current Month",
+          "size": {
+            "height": 173,
+            "width": 305
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 1651.3392602385616,
+            "y": 142.65331998300002
+          },
+          "nodeIndex": "CDA Next Month",
+          "size": {
+            "height": 149,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 1342.3392602385616,
+            "y": 30.653319983000017
+          },
+          "nodeIndex": "Cloud Program Metrics",
+          "size": {
+            "height": 173,
+            "width": 269
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 1208.7393823088737,
+            "y": 333.653319983
+          },
+          "nodeIndex": "Report Filter",
+          "size": {
+            "height": 173,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 722.27757226141068,
+            "y": 77.05972015407832
+          },
+          "nodeIndex": "External Jira Issues",
+          "nodeLineageTag": "400c1d57-2a6e-47ef-9c89-e116fdcecc3c",
+          "size": {
+            "height": 317,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 1976.7,
+            "y": 0
+          },
+          "nodeIndex": "New Capabilities",
+          "size": {
+            "height": 173,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 2317.7,
+            "y": 0
+          },
+          "nodeIndex": "Internal Jira Issues",
+          "size": {
+            "height": 293,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 2601.2,
+            "y": 558
+          },
+          "nodeIndex": "Last Refresh Date",
+          "nodeLineageTag": "ba644526-29c1-48e0-a325-965bd245a9db",
+          "size": {
+            "height": 104,
+            "width": 234
+          },
+          "zIndex": 0
+        }
+      ],
+      "name": "All tables",
+      "zoomValue": 63.287087723233995,
+      "pinKeyFieldsToTop": false,
+      "showExtraHeaderInfo": false,
+      "hideKeyFieldsWhenCollapsed": false,
+      "tablesLocked": false
+    }
+  ],
+  "selectedDiagram": "All tables",
+  "defaultDiagram": "All tables"
+}

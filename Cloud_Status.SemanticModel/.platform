@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "SemanticModel",
+    "displayName": "Cloud_Status_PBI-Aug28"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "88136ac7-1883-411a-8e27-316f7dec7b47"
+  }
+}
